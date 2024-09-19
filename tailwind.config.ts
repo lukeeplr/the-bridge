@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        neue: ['var(--font-neue)'],
+        founders: ['var(--font-founders)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
